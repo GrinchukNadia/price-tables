@@ -30,14 +30,14 @@ body {
   margin-right: 0;
 }
 .price-card__title {
-  font-size: 35px;
-  line-height: 43px;
-  font-weight: 700;
   text-align: center;
   padding-top: 33px;
   padding-bottom: 33px;
 }
 .price-card__title h2 {
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 700;
   margin: 0;
   padding: 0;
 }
@@ -68,8 +68,7 @@ body {
   font-size: 15px;
   line-height: 18px;
   text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px 26px;
 }
 .price-card__options-list_item {
   font-weight: 300;
