@@ -14,9 +14,10 @@ body {
 .price {
   margin: auto;
   display: flex;
+  justify-content: center;
   max-width: 1440px;
   min-height: 100vh;
-  padding: 115px 132px;
+  padding: 115px 0;
 }
 
 .price-card {
@@ -25,6 +26,7 @@ body {
   margin-right: 18px;
   box-shadow: 0px 6px 6px #00000016;
   overflow: hidden;
+  width: 380px;
   
   &:last-child {
     margin-right: 0;
