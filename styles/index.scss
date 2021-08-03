@@ -9,16 +9,17 @@ body {
   background-color: $body-background-color;
   color: $white;
   font-weight: 300;
-}
 
-.price {
-  margin: auto;
+  min-width: 100vw;
+  min-height: 100vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1440px;
-  height: 1000px;
-  padding: 115px 0;
+}
+
+.price {
+  display: flex;
 }
 
 .price-card {
