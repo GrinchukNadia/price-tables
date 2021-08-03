@@ -2,4 +2,125 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #141b1c;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.price {
+  margin: auto;
+  display: flex;
+  max-width: 1440px;
+  min-height: 100vh;
+  padding: 115px 132px;
+}
+
+.price-card {
+  background-color: #334247;
+  position: relative;
+  margin-right: 18px;
+  box-shadow: 0px 6px 6px #00000016;
+  overflow: hidden;
+}
+.price-card:last-child {
+  margin-right: 0;
+}
+.price-card__title {
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 33px;
+  padding-bottom: 33px;
+}
+.price-card__title h2 {
+  margin: 0;
+  padding: 0;
+}
+.price-card__title span {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 300;
+}
+.price-card__price {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  text-align: center;
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+.price-card__price.green-bg {
+  background-color: #5BB189;
+}
+.price-card__price.blue-bg {
+  background-color: #3A6BA5;
+}
+.price-card__price.orange-bg {
+  background-color: #EC632A;
+}
+.price-card__description {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.price-card__options-list_item {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.price-card__options-list_item:nth-child(odd) {
+  background-color: #2A343880;
+}
+.price-card__options-list_item img {
+  margin-right: 22px;
+  margin-left: 22px;
+}
+.price-card__order-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 39px;
+  padding-bottom: 40px;
+}
+.price-card__order-btn button {
+  border: none;
+  color: #ffffff;
+  border-radius: 20px;
+  margin: auto;
+  padding: 11px 27px 12px 26px;
+  cursor: pointer;
+}
+.price-card__order-btn button.green-bg {
+  background-color: #5BB189;
+}
+.price-card__order-btn button.blue-bg {
+  background-color: #3A6BA5;
+}
+.price-card__order-btn button.orange-bg {
+  background-color: #EC632A;
+}
+.price-card__badge {
+  position: absolute;
+  background-color: #DC3F45;
+  width: 147px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(45deg);
+  right: -31px;
+  top: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
 /*# sourceMappingURL=styles.css.map */

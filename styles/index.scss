@@ -1,3 +1,143 @@
+@import "variables.scss";
+
 * {
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: $body-background-color;
+  color: $white;
+  font-weight: 300;
+}
+
+.price {
+  margin: auto;
+  display: flex;
+  max-width: 1440px;
+  min-height: 100vh;
+  padding: 115px 132px;
+}
+
+.price-card {
+  background-color: $card-background-color;
+  position: relative;
+  margin-right: 18px;
+  box-shadow: 0px 6px 6px #00000016;
+  overflow: hidden;
+  
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &__title {
+    font-size: 35px; 
+    line-height: 43px; 
+    font-weight: 700;
+    text-align: center;
+    padding-top: 33px;
+    padding-bottom: 33px;
+
+    h2 {
+      margin: 0;
+      padding: 0;
+    }
+
+    span {
+      font-size: 20px; 
+      line-height: 24px;
+      font-weight: 300;
+    }
+  }
+
+  &__price {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    text-align: center;
+    padding-top: 19px;
+    padding-bottom: 19px;
+
+    &.green-bg {
+      background-color: $green;
+    }
+    &.blue-bg {
+      background-color: $blue;
+    }
+    &.orange-bg {
+      background-color: $orange;
+    }
+  }
+
+  &__description {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  &__options-list {
+
+    &_item {
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 18px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+
+      &:nth-child(odd) {
+        background-color: $list-item-dark-bg;
+      }
+
+      img {
+        margin-right: 22px;
+        margin-left: 22px;
+      }
+    }
+  }
+
+  &__order-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 39px;
+    padding-bottom: 40px;
+
+    button {
+      border: none;
+      color: $white;
+      border-radius: 20px;
+      margin: auto;
+      padding: 11px 27px 12px 26px;
+      cursor: pointer;
+
+      &.green-bg {
+        background-color: $green;
+      }
+      &.blue-bg {
+        background-color: $blue;
+      }
+      &.orange-bg {
+        background-color: $orange;
+      }
+    }
+  }
+
+  &__badge {
+    position: absolute;
+    background-color: $red-badge-bg;
+    width: 147px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+    right: -31px;
+    top: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+  }
 }
