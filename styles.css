@@ -92,6 +92,7 @@ body {
   padding-bottom: 40px;
 }
 .price-card__order-btn button {
+  font-size: 14px;
   border: none;
   color: #ffffff;
   border-radius: 20px;
